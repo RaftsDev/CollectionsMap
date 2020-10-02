@@ -13,5 +13,9 @@ public class Main {
         languages.put("BASIC","For beginners");
 
         System.out.println(languages.get("BASIC"));
+
+        System.out.println(languages.put("BASIC","From 1980s"));
+
+        System.out.println(languages.put("BASIC","From MS"));
     }
 }
