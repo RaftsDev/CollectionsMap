@@ -15,9 +15,11 @@ public class Main {
         System.out.println(languages.get("BASIC"));
 
         System.out.println(languages.put("BASIC","From 1980s"));//Get previous value
-
-
-
         System.out.println(languages.put("BASIC","From MS"));
+
+        //Check contain a key
+        if(languages.containsKey("Java")){
+            System.out.println("languages map contais a key Java:"+languages.get("Java"));
+        }
     }
 }
