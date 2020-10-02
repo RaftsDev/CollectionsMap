@@ -21,5 +21,11 @@ public class Main {
         if(languages.containsKey("Java")){
             System.out.println("languages map contais a key Java: "+languages.get("Java"));
         }
+
+        //Going through all key sets.
+        System.out.println("*********** Using keyset() ***********");
+        for(String key:languages.keySet()){
+            System.out.println("languages map has key: "+key+" with value: "+languages.get(key));
+        }
     }
 }
