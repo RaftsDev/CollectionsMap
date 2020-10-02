@@ -19,7 +19,7 @@ public class Main {
 
         //Check contain a key
         if(languages.containsKey("Java")){
-            System.out.println("languages map contais a key Java:"+languages.get("Java"));
+            System.out.println("languages map contais a key Java: "+languages.get("Java"));
         }
     }
 }
