@@ -22,6 +22,9 @@ public class Main {
             System.out.println("languages map contais a key Java: "+languages.get("Java"));
         }
 
+        // Remove some key
+        languages.remove("BASIC");
+
         //Going through all key sets.
         System.out.println("*********** Using keyset() ***********");
         for(String key:languages.keySet()){
