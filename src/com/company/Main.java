@@ -32,7 +32,7 @@ public class Main {
         }
 
         if(languages.remove("Java","High level, object oriented, independent")){
-            System.out.println("Object with appropriate pair key/value was removed");
+            System.out.println("Element with appropriate pair key/value was removed");
         }else{
             System.out.println("pair key/value not found");
         }
