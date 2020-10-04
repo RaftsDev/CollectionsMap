@@ -26,7 +26,13 @@ public class Main {
         languages.remove("BASIC");
 
         if(languages.remove("Java","Bla-bla-bla")){
-            System.out.println("Object with kew Java was removed");
+            System.out.println("Object with appropriate pair key/value was removed");
+        }else{
+            System.out.println("pair key/value not found");
+        }
+
+        if(languages.remove("Java","High level, object oriented, independent")){
+            System.out.println("Object with appropriate pair key/value was removed");
         }else{
             System.out.println("pair key/value not found");
         }
