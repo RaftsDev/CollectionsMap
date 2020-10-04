@@ -37,6 +37,14 @@ public class Main {
             System.out.println("pair key/value not found");
         }
 
+        //Replace
+
+        if(languages.replace("Algol","Wrong value - not going to be replaced","New value")){
+            System.out.println("Element was replaced");
+        }else{
+            System.out.println("Element wasn't replace");
+        }
+
         //Going through all key sets.
         System.out.println("*********** Using keyset() ***********");
         for(String key:languages.keySet()){
