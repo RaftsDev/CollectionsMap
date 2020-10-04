@@ -25,6 +25,12 @@ public class Main {
         // Remove some key
         languages.remove("BASIC");
 
+        if(languages.remove("Java","Bla-bla-bla")){
+            System.out.println("Object with kew Java was removed");
+        }else{
+            System.out.println("pair key/value not found");
+        }
+
         //Going through all key sets.
         System.out.println("*********** Using keyset() ***********");
         for(String key:languages.keySet()){
